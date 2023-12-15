@@ -165,8 +165,9 @@ require 'header.php';
                 <div class="col-md-4">
                     <!-- <div class="section-subtitle"><span>Best Prices</span></div> -->
                     <div class="section-title"><span>Celebrate At Haveli</span></div>
-                    <p class="color-2">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. <br> The point of using Lorem Ipsum is that it has
-                        a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                    <p class="color-2">
+                    At Haveli Resort, we offer a splendid venue to commemorate life's cherished moments. Whether it's a birthday bash, anniversary celebration, corporate event, or any special occasion, our resort provides a perfect blend of amenities and charm to make your event unforgettable.
+                    <br>Contact us to plan and tailor your celebration, making it an extraordinary affair at Haveli Delight, where every occasion is a reason to cherish.
                     </p>
 
                     <div class="reservations">

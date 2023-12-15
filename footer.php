@@ -87,11 +87,11 @@
         $(document).ready(function() {
             $('#kenburnsSliderContainer').vegas({
                 slides: [{
-                    src: "img/slider/new_2.jpg"
+                    src: "img/slider/slider_2.webp"
                 }, {
-                    src: "img/slider/new_1.jpg"
+                    src: "img/slider/slider_1.webp"
                 }, {
-                    src: "img/slider/new_3.jpg"
+                    src: "img/slider/slider_3.webp"
                 }],
                 overlay: true,
                 transition: 'fade2',
