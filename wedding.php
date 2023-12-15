@@ -149,98 +149,76 @@ require 'header1.php';
             </div>
         </div>
     </section>
-    <section class="testimonials">
-    <div class="container">
-        
-    <div class="row">
-    <div class="col-md-12 text-left"> 
-                    
-                    <!-- <div class="section-subtitle">An Experience for the Senses</div> -->
-                    <div class="section-title section-padding">The Haveli Wedding Glimpse</div>
+    <!-- Image Gallery -->
+        <section class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-subtitle">Images</div>
+                        <div class="section-title">Wedding Glimpse</div>
+                    </div>
+                    <!-- 3 columns -->
+                    <div class="col-md-4 gallery-item">
+                        <a href="img/slider/7.jpg" title="" class="img-zoom">
+                            <div class="gallery-box">
+                                <div class="gallery-img"> <img src="img/wedding/wedding6.jpg" class="img-fluid mx-auto d-block" alt="work-img"> </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 gallery-item">
+                        <a href="img/slider/5.jpg" title="" class="img-zoom">
+                            <div class="gallery-box">
+                                <div class="gallery-img"> <img src="img/wedding/wedding3.jpg" class="img-fluid mx-auto d-block" alt="work-img"> </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 gallery-item">
+                        <a href="img/slider/4.jpg" title="" class="img-zoom">
+                            <div class="gallery-box">
+                                <div class="gallery-img"> <img src="img/wedding/wedding7.jpg" class="img-fluid mx-auto d-block" alt="work-img"> </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- 2 columns -->
+                    <div class="col-md-6 gallery-item">
+                        <a href="img/slider/2.jpg" title="" class="img-zoom">
+                            <div class="gallery-box">
+                                <div class="gallery-img"> <img src="img/wedding/wedding1.jpg" class="img-fluid mx-auto d-block" alt="work-img"> </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 gallery-item">
+                        <a href="img/slider/1.jpg" title="" class="img-zoom">
+                            <div class="gallery-box">
+                                <div class="gallery-img"> <img src="img/wedding/wedding2.jpg" class="img-fluid mx-auto d-block" alt="work-img"> </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- 3 columns -->
+                    <!-- <div class="col-md-4 gallery-item">
+                        <a href="img/rooms/8.jpg" title="" class="img-zoom">
+                            <div class="gallery-box">
+                                <div class="gallery-img"> <img src="img/wedding/wedding5.jpg" class="img-fluid mx-auto d-block" alt="work-img"> </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 gallery-item">
+                        <a href="img/rooms/5.jpg" title="" class="img-zoom">
+                            <div class="gallery-box">
+                                <div class="gallery-img"> <img src="img/wedding/wedding4.jpg" class="img-fluid mx-auto d-block" alt="work-img"> </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 gallery-item">
+                        <a href="img/rooms/10.jpg" title="" class="img-zoom">
+                            <div class="gallery-box">
+                                <div class="gallery-img"> <img src="img/wedding/wedding8.jpg" class="img-fluid mx-auto d-block" alt="work-img"> </div>
+                            </div>
+                        </a>
+                    </div> -->
                 </div>
-<div class="gallery">
-    <div class="gallery__column">
-        <a href="#" target="_blank" class="gallery__link">
-            <figure class="gallery__thumb">
-                <img src="img/index/marriage_new.JPG" class="gallery__image">
-            </figure>
-        </a>
-
-        <a href="#" target="_blank" class="gallery__link">
-            <figure class="gallery__thumb">
-                <img src="img/index/marriage_new.JPG" class="gallery__image">
-            </figure>
-        </a>
-
-        <a href="#" target="_blank" class="gallery__link">
-            <figure class="gallery__thumb">
-                <img src="img/index/marriage_new.JPG" class="gallery__image">
-            </figure>
-        </a>
-        
-    </div>
-
-    <div class="gallery__column">
-        
-
-        <a href="#" target="_blank" class="gallery__link">
-            <figure class="gallery__thumb">
-                <img src="img/index/marriage_new.JPG" class="gallery__image">
-            </figure>
-        </a>
-
-        <a href="#" target="_blank" class="gallery__link">
-            <figure class="gallery__thumb">
-                <img src="img/index/marriage_new.JPG" class="gallery__image">
-            </figure>
-        </a>
-        <a href="#" target="_blank" class="gallery__link">
-            <figure class="gallery__thumb">
-                <img src="img/index/marriage_new.JPG" class="gallery__image">
-            </figure>
-        </a>
-    </div>
-
-    <div class="gallery__column">
-        <a href="#" target="_blank" class="gallery__link">
-            <figure class="gallery__thumb">
-                <img src="img/index/marriage_new.JPG" class="gallery__image">
-            </figure>
-        </a>
-        <a href="#" target="_blank" class="gallery__link">
-            <figure class="gallery__thumb">
-                <img src="img/index/marriage_new.JPG" class="gallery__image">
-            </figure>
-        </a>
-        <a href="#" target="_blank" class="gallery__link">
-            <figure class="gallery__thumb">
-                <img src="img/index/marriage_new.JPG" class="gallery__image">
-            </figure>
-        </a>
-    </div>
-
-    <div class="gallery__column">
-        <a href="#" target="_blank" class="gallery__link">
-            <figure class="gallery__thumb">
-                <img src="img/index/marriage_new.JPG" class="gallery__image">
-            </figure>
-        </a>
-        <a href="#" target="_blank" class="gallery__link">
-            <figure class="gallery__thumb">
-                <img src="img/index/marriage_new.JPG" class="gallery__image">
-            </figure>
-        </a>
-        <a href="#" target="_blank" class="gallery__link">
-            <figure class="gallery__thumb">
-                <img src="img/index/marriage_new.JPG" class="gallery__image">
-            </figure>
-        </a>
-    </div>
-</div>
-</div>
-
-    </div>
-    </section>
+            </div>
+        </section>
     <!-- Footer -->
     <?php
 require 'footer.php';

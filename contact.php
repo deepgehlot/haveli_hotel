@@ -45,7 +45,7 @@ require 'header1.php';
                 </div>
                 <div class="col-md-5 mb-30 offset-md-1">
                     <h3>Get in touch</h3>
-                    <form method="post" class="contact__form" action="#">
+                    <form id="contact_form" class="contact__form" action="#">
                         <!-- form message -->
                         <div class="row">
                             <div class="col-12">
@@ -55,22 +55,22 @@ require 'header1.php';
                         <!-- form elements -->
                         <div class="row">
                             <div class="col-md-6 form-group">
-                                <input name="name" type="text" placeholder="Your Name *" required>
+                                <input name="name" id="name" type="text" placeholder="Your Name *" required>
                             </div>
                             <div class="col-md-6 form-group">
-                                <input name="email" type="email" placeholder="Your Email *" required>
+                                <input name="email" id="email" type="email" placeholder="Your Email *" required>
                             </div>
                             <div class="col-md-6 form-group">
-                                <input name="phone" type="text" placeholder="Your Number *" required>
+                                <input name="phone" id="phone"  type="text" maxlength="10" minlength="10" placeholder="Your Number *" required>
                             </div>
                             <div class="col-md-6 form-group">
-                                <input name="subject" type="text" placeholder="Subject *" required>
+                                <input name="subject" id="subject" type="text" placeholder="Subject *" required>
                             </div>
                             <div class="col-md-12 form-group">
                                 <textarea name="message" id="message" cols="30" rows="4" placeholder="Message *" required></textarea>
                             </div>
                             <div class="col-md-12">
-                                <button type="submit" class="butn-dark2"><span>Send Message</span></button>
+                                <button type="button" onclick="booking_form()"  class="butn-dark2"><span>Send Message</span></button>
                             </div>
                         </div>
                     </form>
@@ -86,112 +86,95 @@ require 'header1.php';
     </section>
     <!-- Reservation & Booking Form -->
     <section class="testimonials">
-        <div class="background bg-img bg-fixed section-padding pb-0" data-background="img/index/book_bg.JPG" data-overlay-dark="2">
-            <div class="container">
-                <div class="row">
-                    <!-- Reservation -->
-                    <div class="col-md-5 mb-30 mt-30">
-                        
-                        <h5 style="color:#8b3422; font-weight:bold">Each of our guest rooms feature a private bath, wi-fi, cable television and include full breakfast.</h5>
-                        <div class="reservations mb-30">
-                            <div class="icon color-1"><span class="flaticon-call" style="color:#8b3422;"></span></div>
-                            <div class="text">
-                                <p class="color-1" style="color:#8b3422;">Reservation</p> <a class="color-1" href="tel:" style="color:#8b3422; font-weight:bold">+91 93585 87770</a>
+                <div class="background bg-img bg-fixed section-padding pb-0" data-background="img/index/bg.JPG" data-overlay-dark="2">
+                    <div class="container">
+                        <div class="row">
+                            <!-- Reservation -->
+                            <div class="col-md-5 mb-30 mt-30">
+                                <!-- <p><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i></p> -->
+                                <h5>Each of our guest rooms feature a private bath, wi-fi, cable television and include full breakfast.</h5>
+                                <div class="reservations">
+                                <div class="icon"><span class="flaticon-call" style="color:white"></span></div>
+                                <div class="text">
+                                    <p>Reservation</p> <a href="tel:+919928112220" style="color:white">+91 99281 12220</a>
+                                    <a href="tel:+919358587770" style="color:white">+91 93585 87770</a>
+                                </div>
                             </div>
-                        </div>
-<!--                        <p><i class="ti-check"></i><small>Call us, it's toll-free.</small></p>-->
-                    </div>
-                    <!-- Booking From -->
-                    <div class="col-md-5 offset-md-2">
-                        <div class="booking-box">
-                            <div class="head-box">
-                                <h6>Rooms & Suites</h6>
-                                <h4>Hotel Booking Form</h4>
+                                <!--                        <p><i class="ti-check"></i><small>Call us, it's toll-free.</small></p>-->
                             </div>
-                            <div class="booking-inner clearfix">
-                                <form action=" " class="form1 clearfix">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <div class="input1_wrapper">
-                                                <label>Check in</label>
-                                                <div class="input1_inner">
-                                                    <input type="text" class="form-control input datepicker" placeholder="Check in">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <div class="input1_wrapper">
-                                                <label>Check out</label>
-                                                <div class="input1_inner">
-                                                    <input type="text" class="form-control input datepicker" placeholder="Check out">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="select1_wrapper">
-                                                <label>Adults</label>
-                                                <div class="select1_inner">
-                                                    <select class="select2 select" style="width: 100%">
-                                                        <option value="0">Adults</option>
-                                                        <option value="1">1</option>
-                                                        <option value="2">2</option>
-                                                        <option value="3">3</option>
-                                                        <option value="4">4</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="select1_wrapper">
-                                                <label>Children</label>
-                                                <div class="select1_inner">
-                                                    <select class="select2 select" style="width: 100%">
-                                                        <option value="0">Children</option>
-                                                        <option value="1">1</option>
-                                                        <option value="2">2</option>
-                                                        <option value="3">3</option>
-                                                        <option value="4">4</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <button type="submit" class="btn-form1-submit mt-15">Check Availability</button>
-                                        </div>
+                            <!-- Booking From -->
+                            <div class="col-md-5 offset-md-2">
+                                <div class="booking-box">
+                                    <div class="head-box">
+                                        <h6>Rooms & Suites</h6>
+                                        <h4>Resort Booking Form</h4>
                                     </div>
-                                </form>
+                                    <div class="booking-inner clearfix">
+                                        <form action=" " class="form1 clearfix" id="whatsappForm">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="input1_wrapper">
+                                                        <label>Check in</label>
+                                                        <div class="input1_inner">
+                                                            <input type="text" required name="checkin" id="checkin" class="form-control input datepicker" placeholder="Check in">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="input1_wrapper">
+                                                        <label>Check out</label>
+                                                        <div class="input1_inner">
+                                                            <input type="text" required name="checkout" id="checkout" class="form-control input datepicker" placeholder="Check out">
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-6">
+                                                    <div class="select1_wrapper">
+                                                        <label>Rooms</label>
+                                                        <div class="select1_inner">
+                                                            <select class="select2 select" required style="width: 100%" name="adults" id="adults">
+                                                                <option value="0">No. of Rooms</option>
+                                                                <option value="1">1</option>
+                                                                <option value="2">2</option>
+                                                                <option value="3">3</option>
+                                                                <option value="4">4</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="select1_wrapper">
+                                                        <label>Person</label>
+                                                        <div class="select1_inner">
+                                                            <select class="select2 select" style="width: 100%" name="children" id="children">
+                                                                <option value="0">Person per Room</option>
+                                                                <option value="1">1</option>
+                                                                <option value="2">2</option>
+                                                                <option value="3">3</option>
+                                                                <option value="4">4</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <button type="button" onclick="booking_form()" class="btn-form1-submit mt-15">Check Availability</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
+            </section>
     <!-- Clients -->
     <section class="clients">
         <div class="container">
             <div class="row">
                 <div class="col-md-7">
-                <div class="owl-carousel owl-theme">
-                    <div class="clients-logo">
-                        <a href="#0"><img src="img/clients/1.png" alt=""></a>
-                    </div>
-                    <div class="clients-logo">
-                        <a href="#0"><img src="img/clients/2.png" alt=""></a>
-                    </div>
-                    <div class="clients-logo">
-                        <a href="#0"><img src="img/clients/3.png" alt=""></a>
-                    </div>
-                    <div class="clients-logo">
-                        <a href="#0"><img src="img/clients/4.png" alt=""></a>
-                    </div>
-                    <div class="clients-logo">
-                        <a href="#0"><img src="img/clients/5.png" alt=""></a>
-                    </div>
-                    <div class="clients-logo">
-                        <a href="#0"><img src="img/clients/6.png" alt=""></a>
-                    </div>
-                </div>
+
                 </div>
             </div>
         </div>
@@ -200,5 +183,77 @@ require 'header1.php';
     <?php
     require 'footer.php';
     ?>
+
+    <script>
+
+                    function booking_form() {
+
+                        var checkin = document.getElementById("checkin").value;
+                        var checkout = document.getElementById("checkout").value;
+                        var adults = document.getElementById("adults").value;
+                        var children = document.getElementById("children").value;
+                        let contact = '+919928112220'; // add your number ex(+9100000000)
+
+
+                        var encodedMessage = encodeURIComponent(
+                        "Please confirm my booking:-" + "\n" +
+                            "Check In Date:- " + checkin + "\n" +
+                            "Check Out Date:- " + checkout + "\n" +
+                            "Number of Rooms:-" + adults + "\n" +
+                            "Number of Person:- " + children
+                        );
+
+
+                        var link;
+
+    //                     Check if user is on a mobile device
+                        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+                            link = `whatsapp://send?phone=${contact}&text=${encodedMessage}`;
+                        } else { // Desktop device
+                            link = `https://web.whatsapp.com/send?phone=${contact}&text=${encodedMessage}`;
+                        }
+
+                        window.open(link, '_blank').focus();
+            }
+
+
+function booking_form() {
+
+                                                var name = document.getElementById("name").value;
+                                                var email = document.getElementById("email").value;
+                                                var phone = document.getElementById("phone").value;
+                                                var subject = document.getElementById("subject").value;
+                                                var message = document.getElementById("message").value;
+                                                let contact = '+919928112220'; // add your number ex(+9100000000)
+
+
+                                                var encodedMessage = encodeURIComponent(
+
+                                                    "Name:-" + name + "\n" +
+                                                    "Email:- " + email + "\n" +
+                                                    "Phone:-" + phone + "\n" +
+                                                    "Subject:- " + subject + "\n" +
+                                                    "Message:- " + message
+                                                );
+
+
+                                                var link;
+
+                            //                     Check if user is on a mobile device
+                                                if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+                                                    link = `whatsapp://send?phone=${contact}&text=${encodedMessage}`;
+                                                } else { // Desktop device
+                                                    link = `https://web.whatsapp.com/send?phone=${contact}&text=${encodedMessage}`;
+                                                }
+
+                                                window.open(link, '_blank').focus();
+                                        }
+
+
+                             document.getElementById('phone').addEventListener('input', function(event) {
+                                   this.value = this.value.replace(/[^\d]/g, '');
+                                 });
+            </script>
+
    </body>
 </html>

@@ -42,7 +42,7 @@ require 'header.php';
             <div class="row">
                 <div class="col-md-4">
                     <div class="item">
-                        <div class="position-re o-hidden"> <img src="img/index/family.JPG" alt=""> </div> <span class="category"><a href="http://wa.me/+919358587770">Book</a></span>
+                        <div class="position-re o-hidden"> <img src="img/index/family.JPG" alt=""> </div> <span class="category"><a href="http://wa.me/+919928112220">Book</a></span>
                         <div class="con">
                             <!-- <h6><a href="#">/ Night</a></h6> -->
                             <h5><a href="#">Deluxe Room</a> </h5>
@@ -65,7 +65,7 @@ require 'header.php';
                 </div>
                 <div class="col-md-4">
                     <div class="item">
-                        <div class="position-re o-hidden"> <img src="img/index/family.JPG" alt=""> </div> <span class="category"><a href="http://wa.me/+919358587770">Book</a></span>
+                        <div class="position-re o-hidden"> <img src="img/index/family.JPG" alt=""> </div> <span class="category"><a href="http://wa.me/+919928112220">Book</a></span>
                         <div class="con">
                             <!-- <h6><a href="#"> / Night</a></h6> -->
                             <h5><a href="#">Super Delux Room</a></h5>
@@ -88,7 +88,7 @@ require 'header.php';
                 </div>
                 <div class="col-md-4">
                     <div class="item">
-                        <div class="position-re o-hidden"> <img src="img/index/type_2.JPG" alt=""> </div> <span class="category"><a href="http://wa.me/+919358587770">Book</a></span>
+                        <div class="position-re o-hidden"> <img src="img/index/type_2.JPG" alt=""> </div> <span class="category"><a href="http://wa.me/+919928112220">Book</a></span>
                         <div class="con">
                             <!-- <h6><a href="#"> / Night</a></h6> -->
                             <h5><a href="#">Executive Room</a></h5>
@@ -111,7 +111,7 @@ require 'header.php';
                 </div>
                 <div class="col-md-6">
                     <div class="item">
-                        <div class="position-re o-hidden"> <img src="./img/rooms_new/family.jpg" alt=""> </div> <span class="category"><a href="http://wa.me/+919358587770">Book</a></span>
+                        <div class="position-re o-hidden"> <img src="./img/rooms_new/family.jpg" alt=""> </div> <span class="category"><a href="http://wa.me/+919928112220">Book</a></span>
                         <div class="con">
                             <!-- <h6><a href="#"> / Night</a></h6> -->
                             <h5><a href="#">Family Room</a></h5>
@@ -134,7 +134,7 @@ require 'header.php';
                 </div>
                 <div class="col-md-6">
                     <div class="item">
-                        <div class="position-re o-hidden"> <img src="./img/rooms_new/suite2.jpg" alt=""> </div> <span class="category"><a href="http://wa.me/+919358587770">Book</a></span>
+                        <div class="position-re o-hidden"> <img src="./img/rooms_new/suite2.jpg" alt=""> </div> <span class="category"><a href="http://wa.me/+919928112220">Book</a></span>
                         <div class="con">
                             <!-- <h6><a href="#"> / Night</a></h6> -->
                             <h5><a href="#">Suite Room</a></h5>
@@ -180,7 +180,7 @@ require 'header.php';
                 <div class="col-md-8">
                     <div class="owl-carousel owl-theme">
                         <div class="pricing-card">
-                            <img src="img/index/C_new_banquet.JPG" alt="">
+                            <img src="img/index/celebrate_banqute.jpg" alt="">
                             <div class="desc">
                                 <div class="name">Banquet</div>
                                 <!-- <div class="amount"><span>/ month</span></div> -->
@@ -407,7 +407,7 @@ require 'header.php';
                 </div>
                 <div class="col-md-6 p-0 order1 animate-box" data-animate-effect="fadeInRight">
                     <div class="img">
-                        <a href=" "><img src="img/index/new_banquet.JPG" alt=""></a>
+                        <a href=" "><img src="img/index/haveli_banquet.jpg" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -608,13 +608,13 @@ require 'header.php';
                                 <h4>Resort Booking Form</h4>
                             </div>
                             <div class="booking-inner clearfix">
-                                <form action=" " class="form1 clearfix">
+                                <form action=" " class="form1 clearfix" id="whatsappForm">
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="input1_wrapper">
                                                 <label>Check in</label>
                                                 <div class="input1_inner">
-                                                    <input type="text" class="form-control input datepicker" placeholder="Check in">
+                                                    <input type="text" required name="checkin" id="checkin" class="form-control input datepicker" placeholder="Check in">
                                                 </div>
                                             </div>
                                         </div>
@@ -622,40 +622,41 @@ require 'header.php';
                                             <div class="input1_wrapper">
                                                 <label>Check out</label>
                                                 <div class="input1_inner">
-                                                    <input type="text" class="form-control input datepicker" placeholder="Check out">
+                                                    <input type="text" required name="checkout" id="checkout" class="form-control input datepicker" placeholder="Check out">
                                                 </div>
                                             </div>
                                         </div>
+
                                         <div class="col-md-6">
-                                            <div class="select1_wrapper">
-                                                <label>Adults</label>
-                                                <div class="select1_inner">
-                                                    <select class="select2 select" style="width: 100%">
-                                                        <option value="0">Adults</option>
-                                                        <option value="1">1</option>
-                                                        <option value="2">2</option>
-                                                        <option value="3">3</option>
-                                                        <option value="4">4</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="select1_wrapper">
-                                                <label>Children</label>
-                                                <div class="select1_inner">
-                                                    <select class="select2 select" style="width: 100%">
-                                                        <option value="0">Children</option>
-                                                        <option value="1">1</option>
-                                                        <option value="2">2</option>
-                                                        <option value="3">3</option>
-                                                        <option value="4">4</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                        </div>
+                                                                                            <div class="select1_wrapper">
+                                                                                                <label>Rooms</label>
+                                                                                                <div class="select1_inner">
+                                                                                                    <select class="select2 select" required style="width: 100%" name="adults" id="adults">
+                                                                                                        <option value="0">No. of Rooms</option>
+                                                                                                        <option value="1">1</option>
+                                                                                                        <option value="2">2</option>
+                                                                                                        <option value="3">3</option>
+                                                                                                        <option value="4">4</option>
+                                                                                                    </select>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="col-md-6">
+                                                                                            <div class="select1_wrapper">
+                                                                                                <label>Person</label>
+                                                                                                <div class="select1_inner">
+                                                                                                    <select class="select2 select" style="width: 100%" name="children" id="children">
+                                                                                                        <option value="0">Person per Room</option>
+                                                                                                        <option value="1">1</option>
+                                                                                                        <option value="2">2</option>
+                                                                                                        <option value="3">3</option>
+                                                                                                        <option value="4">4</option>
+                                                                                                    </select>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
                                         <div class="col-md-12">
-                                            <button type="submit" class="btn-form1-submit mt-15"><a href="http://wa.me/+919358587770">Check Availability</a></button>
+                                            <button type="button" onclick="gotowhatsapp()" class="btn-form1-submit mt-15">Check Availability</button>
                                         </div>
                                     </div>
                                 </form>
@@ -695,9 +696,46 @@ require 'header.php';
             </div>
         </div>
     </section>
+
+
    <?php
 require 'footer.php';
 
 ?>
+<script>
 
-<!-- #8b3422 -->
+                function gotowhatsapp() {
+
+                    var checkin = document.getElementById("checkin").value;
+                    var checkout = document.getElementById("checkout").value;
+                    var adults = document.getElementById("adults").value;
+                    var children = document.getElementById("children").value;
+                    let contact = '+919928112220'; // add your number ex(+9100000000)
+
+
+                    var encodedMessage = encodeURIComponent(
+                                            "Please confirm my booking:-" + "\n" +
+                                                "Check In Date:- " + checkin + "\n" +
+                                                "Check Out Date:- " + checkout + "\n" +
+                                                "Number of Rooms:-" + adults + "\n" +
+                                                "Number of Person:- " + children
+                                            );
+
+
+                    var link;
+
+//                     Check if user is on a mobile device
+                    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+                        link = `whatsapp://send?phone=${contact}&text=${encodedMessage}`;
+                    } else { // Desktop device
+                        link = `https://web.whatsapp.com/send?phone=${contact}&text=${encodedMessage}`;
+                    }
+
+                    window.open(link, '_blank').focus();
+        }
+
+        </script>
+
+<!-- #8b3422
+<a href="http://wa.me/+919358587770">
+-->

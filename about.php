@@ -60,7 +60,7 @@ Encompassing A Vast Expanse Of 3.5 Acres, Adorned With Expansive And Beautifully
                 <div class="col-md-8">
                     <div class="owl-carousel owl-theme">
                         <div class="pricing-card">
-                            <img src="img/index/Banquet.png" alt="">
+                            <img src="img/index/celebrate_banqute.jpg" alt="">
                             <div class="desc">
                                 <div class="name">Banquet</div>
                                 <!-- <div class="amount"><span>/ month</span></div> -->

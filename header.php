@@ -45,7 +45,7 @@
                     <li class="nav-item"><a class="nav-link" href="wedding.php">Weddings</a></li>
                     
                     <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
-                    <li class="nav-item"><a class="nav-link" href="http://wa.me/+919358587770">Book Now</a></li>
+                    <li class="nav-item"><a class="nav-link" href="http://wa.me/+919928112220">Book Now</a></li>
 
                 </ul>
             </div>
