@@ -4,7 +4,7 @@ require 'header1.php';
 
 ?>
     <!-- Header Banner -->
-    <div class="banner-header section-padding valign bg-img bg-fixed" data-overlay-dark="3" data-background="img/index/contact.JPG">
+    <div class="banner-header section-padding valign bg-img bg-fixed" data-overlay-dark="3" data-background="img/index/contact.webp">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-left caption mt-90">

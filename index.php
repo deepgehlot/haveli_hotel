@@ -42,7 +42,7 @@ require 'header.php';
             <div class="row">
                 <div class="col-md-4">
                     <div class="item">
-                        <div class="position-re o-hidden"> <img src="img/index/family.JPG" alt=""> </div> <span class="category"><a href="http://wa.me/+919928112220">Book</a></span>
+                        <div class="position-re o-hidden"> <img src="img/rooms_new/home_delux.jpg" alt=""> </div> <span class="category"><a href="http://wa.me/+919928112220">Book</a></span>
                         <div class="con">
                             <!-- <h6><a href="#">/ Night</a></h6> -->
                             <h5><a href="#">Deluxe Room</a> </h5>

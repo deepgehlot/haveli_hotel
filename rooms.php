@@ -21,7 +21,7 @@ require 'header1.php';
             <div class="row">
                 <div class="col-md-12">
                     <div class="rooms2 mb-90 animate-box" data-animate-effect="fadeInUp">
-                        <figure><img src="img/index/delux.JPG" alt="" class="img-fluid"></figure>
+                        <figure><img src="img/rooms_new/new_delux.jpg" alt="" class="img-fluid"></figure>
                         <div class="caption">
                             <!-- <h3><span>/ Night</span></h3> -->
                             <h4><a href="#">Delux Room</a></h4>
